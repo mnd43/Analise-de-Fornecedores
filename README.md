@@ -4,7 +4,7 @@
 Este projeto teve como objetivo realizar uma análise geral dos fornecedores, atentando-se à integridade do saldo contábil, à concentração e representatividade de terceiros e à identificação de possíveis inconsistências no controle da empresa.  
 
 ## Ferramentas utilizadas  
-Utilizei a biblioteca Faker do Python para criar a base fictícia, determinando alguns parâmetros para que se aproximasse minimamente das bases reais utilizadas em empresas.  
+Utilizei a biblioteca Faker do Python para criar a base fictícia, determinando alguns parâmetros para que se aproximasse minimamente das bases reais utilizadas em empresas. Posteriormente, desenvolvi o dashboard utilizando o Power BI.
 
 ## Tratamento de Dados  
 Como a base foi criada, não houve necessidade de grandes tratamentos em relação a formatos e limpeza. Apenas desmembrei a base maior nas tabelas de dimensões: **D_Fornecedores**, **D_Moeda**, **D_Tempo**; e a tabela fato **F_Transações**, para treinar modelagem e facilitar as análises.  
